@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+.hero {
+    height: 90vh;
+    background: linear-gradient(
+        rgba(15,23,42,0.65),
+        rgba(15,23,42,0.65)
+    ),
+    url("../images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 15px 35px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #1d4ed8;
+}
+.about {
+    padding: 60px 80px;
+    text-align: center;
+    background-color: white;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+.events {
+    padding: 60px 80px;
+    background-color: #f4f4f4;
+}
+
+.events h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.event-card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.event-card p {
+    margin: 8px 0;
+    color: #555;
+}
+.speakers {
+    padding: 60px 80px;
+    background-color: #ffffff;
+}
+
+.speakers h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.speaker-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.speaker-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.speaker-card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.speaker-card p {
+    margin: 8px 0;
+    color: #555;
+}
+.registration {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.registration h2 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.registration form {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.registration label {
+    font-weight: bold;
+    color: #333;
+}
+
+.registration input,
+.registration select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #1d4ed8;
+}
+.announcements {
+    padding: 60px 80px;
+    background-color: #f4f4f4;
+}
+
+.announcements h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.announcement-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.announcement-card {
+    background: white;
+    padding: 25px;
+    border-left: 6px solid #2563eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.announcement-card h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.announcement-card p {
+    color: #555;
+    line-height: 1.6;
+}
+.contact {
+    padding: 60px 80px;
+    background-color: #ffffff;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    min-width: 320px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-info h3 {
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 12px 0;
+    color: #555;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #1d4ed8;
+}
